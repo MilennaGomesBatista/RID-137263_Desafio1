@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#menusuperior{
+    background-color: #303030;
+    padding: 20px;
+}
+#titulo-menusuperior{
+    color: #ffffff;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#texto-menusuperior{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    color: #ffffff;
+}
+
+#menuinformacional {
+    background-color: rgb(249, 247, 244);
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+    text-align: left; 
+}
+
+.info-item {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.info-item h2 {
+    font-size: 2rem; 
+    margin: 0px;
+}
+
+.info-item p {
+    font-size: 1rem; 
+    margin: 5px 0 0 0; 
+}
+
+#historia {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#texto-historia {
+    max-width: 50%; 
+}
+
+#titulo-historia {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#texto-historia p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#imagem {
+    max-width: 40%; 
+    height: auto; 
+    margin-right: 50px;
+    
+   
+}
+
+#formulário{
+    font-size: 10px;
+    text-align: center;
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#titulo-formulario{
+    margin: 25px;
+
+}
+
+input{
+width: 300px;
+height: 50px;
+margin-top: 30px;
+border: 0px;
+border-radius: 10px 10px 10px 10px;
+opacity: 0px;
+padding-left: 20px;
+font-weight: bolder;
+
+}
+
+
+button{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 10px 10px 10px 10px;
+    font-size:'Inter', sans-serif;
+    color: white;
+    background-color: #c07212;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    background-color: #df9e4d;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #533b1dd8;
+    transition-duration: 0.5s;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #cdc9c9;
+}
